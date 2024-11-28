@@ -2,6 +2,10 @@
 
 An intelligent chatbot application that combines the power of Claude 3 Haiku with real-time web search capabilities, built with FastAPI and React.
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/91110f13-c832-424d-91f2-35b08b7ba15e" width="600" alt="Claude Search Assistant Interface"/>
+</div>
+
 ## Overview
 
 Claude Search Assistant is a web-based chatbot that enhances Claude's capabilities with real-time web search functionality using the SERP API. This integration allows the chatbot to provide up-to-date information while maintaining Claude's conversational abilities.
