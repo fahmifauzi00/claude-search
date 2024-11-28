@@ -19,7 +19,7 @@ const ChatInterface = ({ title }) => {
     setIsLoading(true);
 
     try {
-      const response = await fetch('https://claude-search-405abae1f380.herokuapp.com/chat', {
+      const response = await fetch(`${process.env.REACT_APP_API_URL}/chat`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ message, session_id: sessionId }),

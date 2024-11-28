@@ -17,6 +17,8 @@ frontend/npm-debug.log*
 frontend/yarn-debug.log*
 frontend/yarn-error.log*
 frontend/.netlify
+frontend/.env.development
+frontend/.env.production
 
 # General
 .DS_Store
